@@ -7,9 +7,9 @@ fn main() {
     println!("Working with freeing of space");
 
     let s1 = String::from("Hello");
-    let s2 = s1;
+    let s2 = should_throw_error(s1);
 
-    //println!("{} is s2 while {} is s1", s2, s1); #will throw error if run
+    //println!("{} is s2 while {} is s1", s2, s1); //#will throw error if run
 
     let s1 = String::from("Hello");
     let s2 = s1.clone();
@@ -31,4 +31,8 @@ fn gives_ownership() -> String {
 
 fn takes_and_gives_back(a_string:String) -> String {
     a_string
+}
+
+fn should_throw_error(s: String) -> String {
+    s
 }
