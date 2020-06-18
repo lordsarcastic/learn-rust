@@ -1,1 +1,0 @@
-/home/lord-sarcastic/Documents/Rust/codes/restaurant/target/debug/librestaurant.rlib: /home/lord-sarcastic/Documents/Rust/codes/restaurant/src/front_of_house/hosting.rs /home/lord-sarcastic/Documents/Rust/codes/restaurant/src/front_of_house.rs /home/lord-sarcastic/Documents/Rust/codes/restaurant/src/lib.rs
