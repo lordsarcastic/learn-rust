@@ -3,10 +3,10 @@ fn main() {
 
     let s = String::from("hello world, how are you");
 
-    let index = second_word_slice(&s);
+    let index = first_word(&s);
 
     println!("The second word is '{}'", index);
-   //println!("the index of the second word is {} and {}", index[0], index[1]);
+    //println!("the index of the second word is {} and {}", index[0], index[1]);
 
     let a = [1, 2, 3, 4, 5];
     let b = &a[1..3];
