@@ -14,13 +14,13 @@ fn get_input(var: &mut String) -> i32 {
 fn calculate_compatibility(male_count: i32, female_count: i32) -> f32 {
     match male_count.cmp(&female_count) {
         Ordering::Less => {
-            return ((male_count as f32 / female_count as f32) as f32 * 100.0) as f32;
+            ((male_count as f32 / female_count as f32) as f32 * 100.0) as f32
         },
         Ordering::Greater => {
-            return ((female_count as f32 / male_count as f32) as f32 * 100.0) as f32;
+            ((female_count as f32 / male_count as f32) as f32 * 100.0) as f32
         },
         Ordering::Equal => {
-            return 50.0;
+            50.0
         }
     }
 }
